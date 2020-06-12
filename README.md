@@ -1,6 +1,6 @@
 # Projeto Automação Carrinho de Compra Americanas
 
-- Projeto para automação de testes no site da americadas. Utilizada a linguagem de programação Java com escrita de cenários de teste utilizando a linguagem Gherkin e a abordagem BDD com framework Cucumber. Utilizado o Selenium WebDriver. 
+- Projeto para automação de testes no site da americanas. Utilizada a linguagem de programação Java com escrita de cenários de teste utilizando a linguagem Gherkin e a abordagem BDD com framework Cucumber. Utilizado o Selenium WebDriver. 
 
 ### Pré-requisito para execução dos testes
 

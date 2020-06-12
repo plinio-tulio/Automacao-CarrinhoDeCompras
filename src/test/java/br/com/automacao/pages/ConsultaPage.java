@@ -6,9 +6,12 @@ import br.com.automacao.core.BasePage;
 
 public class ConsultaPage extends BasePage {
 
+	By campoBusca = By.id("h_search-input");
+	By botaoBuscar = By.id("h_search-btn");
+
 	public void realizarConsulta(String nomeProduto) {
-		escrever(By.id("h_search-input"), nomeProduto);
-		clique(By.id("h_search-btn"));
+		escrever(campoBusca, nomeProduto);
+		clique(botaoBuscar);
 	}
 
 }

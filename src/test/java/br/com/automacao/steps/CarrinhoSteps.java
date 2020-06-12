@@ -41,7 +41,6 @@ public class CarrinhoSteps {
 
 	@Quando("^seleciono o produto \"([^\"]*)\"$")
 	public void selecionoOProduto(String nomeProduto) throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
 		compraPage.selecionarProduto(nomeProduto);
 	}
 
